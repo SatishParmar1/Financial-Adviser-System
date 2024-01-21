@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="chat3.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">   
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet"/>
+
+    <title>Virtual
+      Finance Assistent</title>
+
+   
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Review</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Login/Signup</a
+            >
+          </li>
+           <li>
+         <div class="user-button">
+          <a href = "hello.html"> <img src="img/user-1.jpg" alt="Satish's Photo" class="user-button__photo"> </a>
+          </div>
+       
+        </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          When
+          <span class="highlight">Finance</span>
+          meets<br />
+          <span class="highlight">minimalist</span>s
+
+        </h1>
+        <h4>A simpler Finance Assistent experience for a simpler life.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/hero.jpg"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <h3 class="section__header">
+      Analysis Financial Adviser
+     </h3>
+     <br><br>
+     <label class="label2"><strong> Enter Your Monthly Income</strong></label><br>
+     <input type="Number" placeholder="Enter Here ">
+
+ <div class="photo-row">
+        <div class="photo">
+            <input type="file" accept="image/*" class="file-input" style="display: none;">
+            <img src="img/food.png" alt="Uploaded Photo" class="image-preview">
+            <button class="btn">Food</button>
+            <input type="text" placeholder="Enter Amount">
+        </div>
+        <div class="photo">
+            <input type="file" accept="image/*" class="file-input" style="display: none;">
+            <img src="img/rent.jpg" alt="Uploaded Photo" class="image-preview">
+            <button class="btn">Rent</button>
+            <input type="text" placeholder="Enter Amount">
+        </div>
+        <div class="photo">
+            <input type="file" accept="image/*" class="file-input" style="display: none;">
+            <img src="img/bank.jpg" alt="Uploaded Photo" class="image-preview">
+            <button class="btn">Bank</button>
+            <input type="text" placeholder="Enter Amount">
+        </div>
+        <div class="photo">
+            <input type="file" accept="image/*" class="file-input" style="display: none;">
+            <img src="img/invet.jpg" alt="Uploaded Photo" class="image-preview">
+            <button class="btn">Investment</button>
+            <input type="text" placeholder="Enter Amount">
+        </div>
+       
+    </div>
+
+    <label class="label1"><strong> Enter Your Income Related Details here</strong></label><br><br>
+    <br>
+
+    <div class="photo-row1">
+      <div id="chatbox">
+        <h5 id="chat-timestamp"></h5>
+        <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+    </div>
+
+    <div class="chat-bar-input-block1">
+        <div id="userInput">
+            <input id="textInput" class="input-box" type="text" name="msg"
+                placeholder="Tap 'Enter' to send a message">
+            <p></p>
+        </div>
+
+        <div class="chat-bar-icons">
+            <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                onclick="heartButton()"></i>
+            <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                onclick="sendButton()"></i>
+        </div>
+    </div>
+    </div>
+<br>
+<br>
+<br>
+<h3 class="section__header">
+  Features of Virtual Finance Assistent
+ </h3> 
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1">
+
+          
+            <span>01</span>Instant Solution
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Instant Improvisation
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Instant 
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Instant Financial Solutions with Virtual Finance Assistant
+          </h5>
+          <p>
+            A virtual financial assistant powered by a chatbot is a revolutionary tool 
+            that delivers instant financial solutions and guidance to users. By harnessing
+             the power of natural language processing (NLP) and machine learning, this 
+             virtual assistant can understand and respond to a wide range of financial inquiries
+              and tasks. Users can effortlessly check their account balances, track transaction 
+              histories, make bill payments, receive investment recommendations, and manage their 
+              budgets, all through intuitive and real-time conversations.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Buy a home or make your dreams come true, with instant loans.
+          </h5>
+          <p>
+            In the ever-evolving landscape of personal finance, a virtual financial 
+            assistant driven by advanced chatbot technology is revolutionizing the way 
+            individuals manage their money. This virtual finance assistant is designed to
+             deliver immediate solutions to financial queries, providing users with a
+              convenient and efficient means of staying on top of their financial health. 
+              Harnessing the capabilities of natural language processing (NLP) and machine learning,
+               this virtual assistant can comprehend and respond to a wide spectrum of financial tasks.
+                Users can effortlessly 
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            No longer need your account? No problem! Close it instantly.
+          </h5>
+          <p>
+            Security and privacy are paramount in this digital age, and the virtual
+             finance assistant ensures that users' financial information is safeguarded with robust
+              authentication and encryption measures. What sets this assistant apart is its ability 
+              to adapt and personalize its financial guidance based on individual behaviors and preferences,
+               delivering tailored advice to each user. However, it's imperative to adhere to regulatory compliance and ethical standards to provide accurate, reliable, and secure financial support, while continuously  
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header1">
+          Millions of Bankists are already making their lifes simpler.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              As we move forward, this virtual finance assistant stands as a beacon of innovation
+               and empowerment for individuals navigating the complexities of personal finance.
+              In a world where instant access to information is a necessity, the virtual finance
+               assistant emerges as an indispensable tool for individuals seeking to make informed 
+               financial decisions. By integrating the latest advancements in chatbot technology, 
+               this assistant becomes a trusted ally for users looking to navigate their financial
+                journey with ease.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Subodh Rao</h6>
+              <p class="testimonial__location">Jaipur Rajasthan, India</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              Security is a paramount concern, and the virtual finance assistant
+               addresses this by implementing stringent measures to safeguard users'
+                financial data. What truly sets this assistant apart is its capacity 
+                to adapt and personalize financial guidance, offering recommendations 
+                tailored to individual behaviors and preferences. In providing this 
+                invaluable assistance, it's essential to maintain a strong commitment to regulatory
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Vatsalya Sharma</h6>
+              <p class="testimonial__location">Ajmer Rajasthan, India</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school banks
+            </h5>
+            <blockquote class="testimonial__text">
+              compliance and ethical standards, ensuring that users receive accurate, 
+              dependable, and secure financial support. The virtual finance assistant 
+              stands as a forward-thinking solution, continuously evolving to meet
+               the ever-changing needs of those navigating the complex world of personal finance.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Naman Bhatt</h6>
+              <p class="testimonial__location">Udaipur Rajasthan, India</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header1">
+          The best day to join BANKIST was one Day ago. The second best is
+          today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your creative account today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://github.com/capybara2510"
+          >Team Kuch Bhi</a
+        >
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Create your account <br />
+        in just <span class="highlight">2 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>Username</label>
+        <input type="text" />
+        <label>Numbers</label>
+        <input type="number" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+
+
+
+    <div class="chat-bar-collapsible">
+      <button id="chat-button" type="button" class="collapsible">Ask question to VBA!
+          <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+      </button>
+    
+      <div class="content">
+          <div class="full-chat-block">
+              <!-- Message Container -->
+              <div class="outer-container">
+                  <div class="chat-container">
+                      <!-- Messages -->
+                      <div id="chatbox">
+                          <h5 id="chat-timestamp"></h5>
+                          <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                      </div>
+    
+                      <div class="chat-bar-input-block">
+                          <div id="userInput">
+                              <input id="textInput" class="input-box" type="text" name="msg"
+                                  placeholder="Tap 'Enter' to send a message">
+                              <p></p>
+                          </div>
+    
+                          <div class="chat-bar-icons">
+                              <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                  onclick="heartButton()"></i>
+                              <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                  onclick="sendButton()"></i>
+                          </div>
+                      </div>
+    
+                      <div id="chat-bar-bottom">
+                          <p></p>
+                      </div>
+    
+                  </div>
+              </div>
+    
+          </div>
+      </div>
+    
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+
+    <script defer src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+ 
+    <script src="responses.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
